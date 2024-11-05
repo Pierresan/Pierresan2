@@ -1,0 +1,89 @@
+body{
+	font-family: Times new roman;
+	max-width: 1000px;
+	margin: auto;
+	background-color: black;
+	background-image: url("../imagess//imagefond.jpg");
+	background-repeat : no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	font-size: 18px;
+}
+header { background-color: #CFC1AB;
+		text-align: center;
+		color: black;
+		text-shadow: 2px 2px #7da1c3;
+		height: 60px;
+		line-height: 60px;
+		font-family: Baskerville Old Face;
+	}
+nav, footer {
+	background-color: black;
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	align-content: center;
+}
+
+nav {
+    font-size: 1.25em;
+	height: 60px; 
+	justify-content: space-around;
+}
+
+footer {
+    height: 100px;
+	justify-content: flex-end;
+}
+a {
+	color: #7da1c3;
+	text-decoration: none;
+	margin: 10px;
+}
+
+a:hover  {
+	color: white ;
+}
+
+main {
+	display: flex;
+}
+
+section {
+	width: 70%; 
+	padding: 20px;
+	background-color: rgba(0, 0, 0, 0.80);
+	color: white;
+	
+}
+
+aside {
+	width: 30%;
+	padding: 20px;
+	background-color: rgba(0,0,0, 0.90);
+	color: white;
+}
+figcaption {
+	text-align: center;
+	font-style: italic;
+	padding: 10px;
+}
+#page{
+	display: block;
+	margin-left: auto;
+	margin-right: auto; 
+}
+
+.logo{
+	max-height: 40px;
+	max-width: 40px;
+	padding-top: 20px;
+}
+h3{
+	padding-bottom: 20px;
+}
+h2{
+	text-align: center;
+	padding-top: 60px;
+	color: #EC1C53;
+}

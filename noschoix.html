@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <title> Nos Choix Techniques </title>
+        <link rel="stylesheet" href="styless/stylee5.css">
+    </head>
+
+	<body>
+		<header>
+			<h1> Nos Choix Techniques </h1>
+		</header>
+		
+		<nav>
+			<a href="indexx.html">Accueil</a>
+			<a href="lesutilisateurss.html">Les Utilisateurs et Leurs Vidéos</a>
+			<a href="lesfonctionnalites.html">Les Fonctionnalités</a>
+			<a href="lafacecachee.html">La Face Cachée</a>
+		</nav>
+		
+		
+		<main>
+		
+			<section>
+									
+
+				<h2> Nos choix techniques </h2>
+
+					<p>Pour les codes HTML, nous avons suivi le même modèle en général avec les balises "!DOCTYPE html", "html lang="fr"". Puis "head" avec à l'intérieur les balises "meta charset="UTF-8"", "title" pour le nom de la page et un lien pour intégrer le CSS (link rel="stylesheet" href="styless/stylee.css").</p>
+
+					<p>Nous avons dû renommer nos fichiers ("indexx" au lieu de "index", "stylee" au lieu de "style") à cause de problème technique où nous avons failli perdre l'ensemble de notre travail. Pour relier la page HTML et la page CSS, il faut bien intégrer la balise link avec le chemin de la feuille de style.(voir ci-dessus le lien). Dans notre dossier il y a nos fiches HTML, une pour chaques pages différentes du site. Nous avons créé des sous dossiers "imagess" et "styless" pour intégrer les images nécessaires et les différentes feuille de style CSS.</p>
+
+					<p>Ensuite, il y a les balises "⁣nav", "main", "section", "aside" (sauf dans certaines pages) et "footer". Nous avons utilisé les balises "p" pour les paragraphes et les titres "h1/2/3..." </p>
+				
+				<h2> Le choix des couleurs </h2>
+
+					<p>Au niveau des couleurs pour l’ensemble du site (texte et couleur des bannières...), on est restés sur des couleurs qui s’associent avec l'image de fond pour harmoniser le site. Nous avons utilisé des sites de générateur de couleurs pour avoir la référence des couleurs selon l'image utilisée. Ce qui nous donnait des couleurs telles que ; "#7da1c3".</p>
+
+					<p>Nous avons intégré une bannière en haut du menu avec le nom de la page. Celle-ci est en beige, une couleur présente dans notre image de fond, pour avoir une harmonie au niveau de la colorimétrie. Le titre est noir pour que cela ressorte mieux. Nous avons mis une ombre de couleur bleue (le même que pour les écritures sur le reste du site afin de ne pas avoir un surplus de couleur) dans le but de créer du contraste et montrer que c'est le titre, il est différent.</p> 
+
+					<p>En revanche, pour la partie "La Face Cachée" nous avons mis la bannière en rouge foncé pour être raccord avec l'image de fond. Pareil pour le titre que nous avons mis en blanc pour une logique de lisibilité et nous avons mis un ombré noir.</p> 
+					
+					<p> Pour le texte en général, il est en blanc pour la lisibilité (dû au fond noir).</p>
+				
+				<h2> Le menu et les images </h2>
+
+					<p>Pour le menu du site, nous avons décidé de mettre nos pages dans l'ordre logique. Nous avons placé le menu en haut par choix stratégique afin de ne pas perturber le visiteur. De plus, nous avons choisi de mettre des liens à notre menu avec la balise "a href="..."" dans le HTML afin que lorsque l'on clique sur le nom de la page, celui-ci nous y emmène. Nous avons choisi de mettre les liens en bleu pour rappeler les couleurs du reste de notre texte (qui est raccord avec notre image de fond). Lorsque l'on survole les liens, ils sont blancs pour donner de la couleur et apporter une esthétique et que cela ressorte/ se démarque. Pour cela, nous avons joué avec le CSS. Nous avons mis le sélecteur "a{}", choisi la couleur, enlevé les surlignages... ("color : #7da1c3;") ("text-decoration: none;") Pour la couleur de survoltage, nous avons utilisé le sélecteur "a:hover {color: white ;}".</p>
+
+					<p>On a décidé de garder la même image de fond qui représente les pays du monde entier reliés par le réseau, ici un réseau social ; TikTok. En revanche, pour la page "La Face Cachée", nous avons opté pour un fond plus sombre avec une image du logo TikTok avec du sang pour illustrer le côté caché de l'application qui devient dangereuse.</p>
+
+					<p>Pour ce qui est des images pour illustrer nos textes, on a choisi de les retoucher sur <a href= https://www.photopea.com/> "Photopea"</a> afin d'avoir une meilleure qualité, jouer sur les contrastes, mais surtout pour que celles-ci ne soient pas trop lourdes. Nous avons ensuite décidé de les centrer grâce aux balises "margin" (left, top, right et bottom) et laisser de l'espace entre elles et le texte. Les centrer nous permet de créer le même univers/style qu'on retrouve sur l'application TikTok (le fait de faire défiler les images, vidéos et d'avoir du texte en bas.) De plus, on trouve ça plus esthétique, de mettre au centre l'image puis le texte qui l'accompagne en dessous. </p>
+					 
+					<p>Pour intégrer les images en général, nous avons dû utiliser dans le HTML la balise "img src="" alt="...". Ici, nous avons mis la balise "alt" afin de mieux référencer les images. Nous avons également utilisé des id (quand l’image ou la vidéo était seule) afin de lui attribuer des caractéristiques CSS propre à elle (avec le sélecteur “#nom de l’image”). (Ex : la vidéo interface de TikTok dans la page "Les Fonctionnalités.). Mais lorsque nous voulions le même CSS pour plusieurs images, nous avons utilisé des “class” (et dans le CSS, nous avons utilisé le sélecteur “.nom de l’image”). (Ex : les images de la page “La Face Cachée” sont toutes centrées, de même taille, pas besoin de faire un code CSS pour chaque image, nous les avons regroupées ensemble.). </p>
+
+					<p>Pour insérer des vidéos en revanche, nous avons pris la balise HTML "iframe src="..."". Nous avons dû aller sur l’application Pinterest ou Youtube pour avoir le lien d’intégration. Nous avons également attribué un id ou une class dans le HTML. Ici, c’est dans le code HTML (dans la balise iframe) que nous avons sélectionné la taille de l’image, qui figurait déjà dans le code d’intégration. Dans le CSS, nous avons simplement cadré les vidéos. Pour ce faire, nous avons utilisé "display: block;" pour que l'élément soit en bloc, ainsi, il s’insère dans le contenu comme une section distincte, avec un saut de ligne avant et après. Nous avons ensuite utilisé un "margin-left et right:" en auto pour que cela se centre (margin-left: auto;).</p>
+
+					<p>Mais pour la page les utilisateurs, on a décidé de mettre la vidéo de Anyme023 en petite et sur le côté avec le texte qui en parlait. Nous avons estimé que cela ne nécessitait pas de la mettre en grand puisque nous parlons d'autres sujets dans les mêmes paragraphes. Pour la mettre en petit sur le côté, nous avons utilisé un "id" dans le HTML puis dans le CSS, nous avons utilisé la propriété "float : right" et nous avons réglé la taille pour qu’elle se place sur les lignes du texte la concernant. </p>
+
+					<p>On a aussi créé notre propre vidéo pour montrer comment on utilise TikTok (vidéo interface de tiktok). Pour l’intégrer, nous avons aussi utilisé une balise "iframe" dans le HTML, mais cette fois-ci pas besoin de code d’intégration, la source provient des images dans le dossier du devoir. Puis, on a dessiné notre propre carte dans CANVA pour l'interdiction de TikTok dans le monde puisqu'on ne trouvait pas sur Internet. La vidéo est assez loudre mais nous l'avons compressé grâce au site <a href="https://clideo.com/fr/project/205657606/result"> "Clidéo".</a> Malheuresuement, la vidéo est encore loudre mais nous ne pouvions pas plus la compresser sous peine de perdre trop de qualité...</p> 
+				
+				<h2> Les titres et le design des pages </h2>
+
+					<p>En ce qui concerne les titres, on a préféré mettre de grands titres au début puis des sous-titres pour détailler les propos. On a rencontré quelques difficultés pour la couleur des titres avec les balises h1, h2 et h3 voire plus. Le h1 est reservé au header, donc nous avons pris les h2/3/4... Dans le CSS, on a géré la taille, l’alignement du texte (text align: center). </p>
+
+					<p>Pour le design des trois premières pages, on a décidé de couper notre page en deux parties. Dans notre code HTML, nous avons intégré deux balises, une "section" et une "aside". Puis dans le CSS, notre partie la plus grande à gauche, représentée par le sélecteur “section”, a une balise ”width” de 70%. La partie plus petite à droite est représentée par le sélecteur "aside". Nous avons également mis une balise “width” mais ici de 30%, pour avoir un côté plus petit. Dans la partie CSS, nous avons mit le fond en noir pour la partie "aside", mais celui-ci joue sur la transparence pour qu’on puisse voir l’image de fond. Pour ce faire, nous avons utilisé la balise : "background-color: rgba(0, 0, 0, 0.80);". Pour la partie "aside", même procédé, mais ici la couleur noire est moins transparente (0.90). Ce design séparée a été choisi concernant les pages avec les vidéos, nous ne voulions pas que celles-ci soient trop longues et surtout trop chargées avec plein d'informations à un même endroit. C'est pourquoi nous avons mis des informations en petits sur le côté. Cela permet d'aérer la page. Les éléments à gauche nous permettent d'illustrer et les textes sur le côté droit permettent d'apporter quelques informations en plus. 
+					Pour la page fonctionnalités de TikTok, on a décidé de mettre sur le côté droit la légende avec les icônes de l'application pour laisser plus de place à la vidéo.</p>
+					
+					<p>En revanche, pour la dernière page, "La Face Cachée", nous avons tout mit sur une même page. Dans le HTML nous n’avons pas mis de balise aside et dans le CSS, nous avons demandé un "width" de 100% pour le sélecteur "section". Cette page contient plus d'informations et nous ne voulions pas créer un surplus de texte de chaque côté de la page. De plus, il n'y a pas de vidéo sur la page, pas besoin alors d'isoler pour une meilleure lisibilité. Nous voulions apporter plusieurs esthétismes à notre site avec les deux types de pages. </p>
+					
+					<p> Pour nos photos, nous avons mit des légendes grace au balise HTML "figcaption". Ensuite dans le CSS, nous avons réglé le texte pour qu'il soit au centre et en italique (font-style: italic;)</p>
+					
+					<p> Nous avons aussi décidé de mettre l'accent sur certains mots en les mettant en gras avec la balise HTML "strong". Ainsi, nous avons joué avec les styles d'écriture (italique, gras...)</p>
+					
+					<h2> L'intégration d'un diagramme </h2>
+
+					 <p>Dans la page "Les Utilisateurs et Leurs Vidéos", nous avons décidé d’intégrer un diagramme pour ne pas avoir que du texte et diversifier la page avec des éléments visuels. On a créé dans le HTML, une balise div avec "class" que l’on a nommé "piechart" pour intégrer le diagramme. Ici, nous avons suivi un modèle d’Internet pour nous aider. Dans le CSS, nous avons dû intégrer un tas de fonctionnalités pour avoir un diagramme en trois parties et de différentes couleurs.</p>
+					 
+					<p>Dans la partie CSS, nous avons donc ;
+					<div>.piechart { (représentant la class)</div>
+					<div> margin-top: 330px; (pour l’espace entre le texte et le diagramme)</div>
+					<div>display: block; </div>
+					<div> position: absolute;</div>
+					<div>width: 230px; (pour la largeur du diagramme)</div>
+					<div>height: 230px; (pour la hauteur du diagramme)</div>
+					<div>border-radius: 50%; </div>
+					<div>background-image: conic-gradient(
+					 white 70deg, 
+					 #EC1C53 0 250 deg, 
+					 #25F4EE 0); } (pour les couleurs des différentes parties)</div>
+					Ici, pour les couleurs, nous avons sélectionné celle du logo TikTok.</p>
+					 
+					<p>Ensuite, il fallait encore régler le positionnement du diagramme. Comme le "align-items : center right" pour mettre le diagramme au milieu à droite. 
+					Ce qui a donné ;
+					<div>.piechart {</div>
+					<div>display: flex;</div>
+					<div>justify-content: center-right;</div>
+					<div>align-items: center-right; }</div>
+					Dans certaines pages, nous avons intégré des liens directement dans le contenu écrit. Toujours grâce à la balise a href="" Il suffit d’écrire avant la fin de la balise, le texte/ mot que l’on veut faire apparaitre à la place du lien HTTPS.</p>
+								
+			</section>
+			
+		</main>
+		
+	</body> 
+	
+	<footer>
+		<a href="noschoix.html">Nos Choix Techniques</a>
+		<a href="asavoir.html">A Savoir</a>
+		<a href="#"> <img src="imagess/RS_FB.png" alt="logo Facebook"/></a>
+		<a href="#"> <img src="imagess/RS_X.png" alt="logo X"/></a>
+		<a href="#"> <img src="imagess/RS_INS.png" alt="logo Instagram"/></a>
+		<a href="#"> <img src="imagess/RS_YT.png" alt="logo Youtube"/></a>
+	</footer>
+</html>

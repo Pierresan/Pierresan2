@@ -1,0 +1,84 @@
+body{
+	font-family: Times new roman;
+	max-width: 1000px;
+	margin: auto;
+	background-color: black;
+	background-image: url("../imagess//tiktok fond.jpg");
+	background-repeat : no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	font-size: 18px;
+}
+header { background-color: #33000F;
+		text-align: center;
+		color: black;
+		text-shadow: 2px 2px black;
+		height: 60px;
+		line-height: 60px;
+		font-family: Baskerville Old Face;
+	}
+nav, footer {
+	background-color: black;
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	align-content: center;
+}
+
+nav {
+    font-size: 1.25em;
+	height: 60px; 
+	justify-content: space-around;
+}
+
+footer {
+    height: 100px;
+	justify-content: flex-end;
+}
+a {
+	color: #7da1c3;
+	text-decoration: none;
+	margin: 10px;
+}
+
+a:hover  {
+	color: white ;
+}
+
+main {
+	display: flex;
+}
+
+section {
+	width:100%; 
+	padding: 20px;
+	background-color: rgba(0, 0, 0, 0.70);
+	color: white;
+}
+h1{
+	text-align: center;
+	color: white;
+}
+h2{
+	color: #EC1C53;
+	padding-top: 20px;
+	text-align: center;
+}
+h3{
+	color: #7da1c3;
+}
+.cache{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 40px;
+	margin-bottom: 10px;
+	height: 350px;
+	width: 550px;
+	
+}
+figcaption{
+	text-align: center;
+	font-style: italic;
+
+}
